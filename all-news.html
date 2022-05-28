@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Все новости</title>
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+	<div class="wrapper wrapper--all-news">
+		<header class="header">
+			<div class="header__top">
+				<div class="container">
+					<div class="header__top-inner">
+						<div class="header__top-left">
+							<div class="header__logo">
+								<a class="header__logo-link" href="#">
+									<img class="header__logo-img" src="img/logo.svg" alt="logo">
+								</a>
+							</div>
+
+							<p class="header__description header__item">
+								Услуги грузчиков, скидки, кэшбэк
+							</p>
+						</div>
+
+						<div class="header__top-right">
+							<a class="header__city header__item open-popup" href="#city-popup">
+								<p class="header__city-value header__item-title">Екатеринбург</p>
+
+								<p class="header__city-select header__item-text">Выбрать город</p>
+							</a>
+
+							<a class="header__phone header__item" href="tel:88001112233">
+								<p class="header__phone-number header__item-title">8 800-111-22-33</p>
+
+								<p class="header__phone-text header__item-text">
+									Работаем круглосуточно, 24/7
+								</p>
+							</a>
+
+							<div class="header__social-media">
+								<a class="header__social-link icon-telegram" href="#"></a>
+								<a class="header__social-link icon-whatsapp" href="#"></a>
+							</div>
+
+							<a class="header__button button open-popup" href="#feedback-popup">Заказать звонок</a>
+
+							<button class="header__burger" type="button">
+								<span class="header__burger-line"></span>
+								<span class="header__burger-line"></span>
+								<span class="header__burger-line"></span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="header__bottom">
+				<div class="container">
+					<div class="header__bottom-inner">
+						<nav class="header__menu menu">
+							<ul class="menu__list">
+								<li class="menu__item menu-item-has-children dropdown">
+									<a class="menu__link dropdown-btn" href="#">Услуги</a>
+
+									<ul class="sub-menu">
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Грузчики на час</a>
+										</li>
+
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Перевозка мебели с грузчиками</a>
+										</li>
+
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Подъем стройматериалов</a>
+										</li>
+
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Перевозка пианино</a>
+										</li>
+
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Уборка снега</a>
+										</li>
+
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Такелажные работы</a>
+										</li>
+
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Уборка снега</a>
+										</li>
+									</ul>
+								</li>
+
+								<li class="menu__item menu-item-has-children dropdown">
+									<a class="menu__link dropdown-btn" href="#">Переезд</a>
+
+									<ul class="sub-menu">
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Квартирный переезд</a>
+										</li>
+
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Офисный переезд</a>
+										</li>
+
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Дачный переезд</a>
+										</li>
+									</ul>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="#">Разнорабочие</a>
+								</li>
+
+								<li class="menu__item menu-item-has-children dropdown">
+									<a class="menu__link dropdown-btn" href="#">Вывоз мусора</a>
+
+									<ul class="sub-menu">
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Вывоз строительного мусора</a>
+										</li>
+
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Вывоз мусора из квартиры</a>
+										</li>
+
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Вывоз мусора на газели</a>
+										</li>
+
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Вывоз мусора на самосвале</a>
+										</li>
+
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Вывоз мусора с погрузкой</a>
+										</li>
+
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Вывоз снега</a>
+										</li>
+									</ul>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="#">Новости</a>
+								</li>
+
+								<li class="menu__item menu-item-has-children dropdown">
+									<a class="menu__link dropdown-btn" href="#">Автопарк</a>
+
+									<ul class="sub-menu">
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Список автомобилей</a>
+										</li>
+									</ul>
+								</li>
+
+								<li class="menu__item menu-item-has-children dropdown">
+									<a class="menu__link dropdown-btn" href="#">О компании</a>
+
+									<ul class="sub-menu">
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Вакансии</a>
+										</li>
+
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Политика конфеденциальности</a>
+										</li>
+
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Пользовательское соглашение</a>
+										</li>
+									</ul>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="#">Контакты</a>
+								</li>
+							</ul>
+						</nav>
+
+						<nav class="header__mobile-menu mobile-menu">
+							<div class="mobile-menu__city">
+								<span class="mobile-menu__city-text">Ваш город:</span>
+
+								<a class="mobile-menu__city-value open-popup" href="#city-popup">Екатеринбург</a>
+							</div>
+
+							<ul class="mobile-menu__list">
+								<li class="mobile-menu__item menu-item-has-children dropdown">
+									<a class="mobile-menu__link icon-services dropdown-btn" href="#">Услуги</a>
+
+									<ul class="sub-menu dropdown-slide-content">
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Такелаж</a>
+										</li>
+
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Вывоз мусора</a>
+										</li>
+
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Уборка снега</a>
+										</li>
+
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Перевозка вещей</a>
+										</li>
+
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Переезд с грузчиками</a>
+										</li>
+									</ul>
+								</li>
+
+								<li class="mobile-menu__item menu-item-has-children dropdown">
+									<a class="mobile-menu__link icon-truck-simple dropdown-btn" href="#">Автопарк</a>
+
+									<ul class="sub-menu dropdown-slide-content">
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Такелаж</a>
+										</li>
+
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Вывоз мусора</a>
+										</li>
+
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Уборка снега</a>
+										</li>
+
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Перевозка вещей</a>
+										</li>
+
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Переезд с грузчиками</a>
+										</li>
+									</ul>
+								</li>
+
+								<li class="mobile-menu__item">
+									<a class="mobile-menu__link icon-vest" href="#">Разнорабочие</a>
+								</li>
+
+								<li class="mobile-menu__item">
+									<a class="mobile-menu__link icon-bucket" href="#">Уборка и клининг</a>
+								</li>
+
+								<li class="mobile-menu__item">
+									<a class="mobile-menu__link icon-checklist" href="#">Вакансии</a>
+								</li>
+
+								<li class="mobile-menu__item menu-item-has-children dropdown">
+									<a class="mobile-menu__link icon-books dropdown-btn" href="#">О компании</a>
+
+									<ul class="sub-menu dropdown-slide-content">
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Такелаж</a>
+										</li>
+
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Вывоз мусора</a>
+										</li>
+
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Уборка снега</a>
+										</li>
+
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Перевозка вещей</a>
+										</li>
+
+										<li class="sub-menu__item">
+											<a class="sub-menu__link" href="#">Переезд с грузчиками</a>
+										</li>
+									</ul>
+								</li>
+
+								<li class="mobile-menu__item">
+									<a class="mobile-menu__link icon-contacts" href="#">Контакты</a>
+								</li>
+
+								<li class="mobile-menu__item">
+									<a class="mobile-menu__link icon-handset" href="tel:88003215678">8 800-321-56-78</a>
+								</li>
+
+								<li class="mobile-menu__item">
+									<a class="mobile-menu__link icon-mail"
+										href="mailto:info@dominant24.ru">info@dominant24.ru</a>
+								</li>
+							</ul>
+
+							<div class="mobile-menu__social-links">
+								<a class="mobile-menu__social-link icon-telegram" href="#"></a>
+
+								<a class="mobile-menu__social-link icon-whatsapp" href="#"></a>
+							</div>
+						</nav>
+
+						<div class="header__menu-blackout"></div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="main">
+			<div class="breadcrumbs">
+				<div class="container">
+					<ul class="breadcrumbs__list">
+						<li class="breadcrumbs__item">
+							<a class="breadcrumbs__link" href="#">Главная</a>
+						</li>
+			
+						<li class="breadcrumbs__item">
+							<a class="breadcrumbs__link" href="#">Новости</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<section class="news-list">
+				<div class="container">
+					<h2 class="news-list__title title title--top-line">Новости</h2>
+
+					<div class="news-list__content">
+						<article class="news-card">
+							<a class="news-card__img-wrapper" href="#" href="#">
+								<img class="news-card__img" src="img/news/preview1.jpg" alt="image">
+							</a>
+
+							<div class="news-card__meta">
+								<p class="news-card__date">22.09.21</p>
+
+								<p class="news-card__views icon-eye">(123)</p>
+							</div>
+
+							<h5 class="news-card__title">
+								<a href="#">Как осуществляется сборка/разборка мебели</a>
+							</h5>
+
+							<p class="news-card__text">Разбираем, собираем мебель. Укажите данную услугу при составлении заявки и грузчики в стране гласных и согласных живут рыбные тексты.</p>
+
+							<a class="news-card__read-more more-link" href="#">Читать далее</a>
+						</article>
+
+						<article class="news-card">
+							<a class="news-card__img-wrapper" href="#" href="#">
+								<img class="news-card__img" src="img/news/preview1.jpg" alt="image">
+							</a>
+
+							<div class="news-card__meta">
+								<p class="news-card__date">22.09.21</p>
+
+								<p class="news-card__views icon-eye">(123)</p>
+							</div>
+
+							<h5 class="news-card__title">
+								<a href="#">Как осуществляется сборка/разборка мебели</a>
+							</h5>
+
+							<p class="news-card__text">Разбираем, собираем мебель. Укажите данную услугу при составлении заявки и грузчики в стране гласных и согласных живут рыбные тексты.</p>
+
+							<a class="news-card__read-more more-link" href="#">Читать далее</a>
+						</article>
+
+						<article class="news-card">
+							<a class="news-card__img-wrapper" href="#" href="#">
+								<img class="news-card__img" src="img/news/preview1.jpg" alt="image">
+							</a>
+
+							<div class="news-card__meta">
+								<p class="news-card__date">22.09.21</p>
+
+								<p class="news-card__views icon-eye">(123)</p>
+							</div>
+
+							<h5 class="news-card__title">
+								<a href="#">Как осуществляется сборка/разборка мебели</a>
+							</h5>
+
+							<p class="news-card__text">Разбираем, собираем мебель. Укажите данную услугу при составлении заявки и грузчики в стране гласных и согласных живут рыбные тексты.</p>
+
+							<a class="news-card__read-more more-link" href="#">Читать далее</a>
+						</article>
+
+						<article class="news-card">
+							<a class="news-card__img-wrapper" href="#" href="#">
+								<img class="news-card__img" src="img/news/preview1.jpg" alt="image">
+							</a>
+
+							<div class="news-card__meta">
+								<p class="news-card__date">22.09.21</p>
+
+								<p class="news-card__views icon-eye">(123)</p>
+							</div>
+
+							<h5 class="news-card__title">
+								<a href="#">Как осуществляется сборка/разборка мебели</a>
+							</h5>
+
+							<p class="news-card__text">Разбираем, собираем мебель. Укажите данную услугу при составлении заявки и грузчики в стране гласных и согласных живут рыбные тексты.</p>
+
+							<a class="news-card__read-more more-link" href="#">Читать далее</a>
+						</article>
+
+						<article class="news-card">
+							<a class="news-card__img-wrapper" href="#" href="#">
+								<img class="news-card__img" src="img/news/preview1.jpg" alt="image">
+							</a>
+
+							<div class="news-card__meta">
+								<p class="news-card__date">22.09.21</p>
+
+								<p class="news-card__views icon-eye">(123)</p>
+							</div>
+
+							<h5 class="news-card__title">
+								<a href="#">Как осуществляется сборка/разборка мебели</a>
+							</h5>
+
+							<p class="news-card__text">Разбираем, собираем мебель. Укажите данную услугу при составлении заявки и грузчики в стране гласных и согласных живут рыбные тексты.</p>
+
+							<a class="news-card__read-more more-link" href="#">Читать далее</a>
+						</article>
+
+						<article class="news-card">
+							<a class="news-card__img-wrapper" href="#" href="#">
+								<img class="news-card__img" src="img/news/preview1.jpg" alt="image">
+							</a>
+
+							<div class="news-card__meta">
+								<p class="news-card__date">22.09.21</p>
+
+								<p class="news-card__views icon-eye">(123)</p>
+							</div>
+
+							<h5 class="news-card__title">
+								<a href="#">Как осуществляется сборка/разборка мебели</a>
+							</h5>
+
+							<p class="news-card__text">Разбираем, собираем мебель. Укажите данную услугу при составлении заявки и грузчики в стране гласных и согласных живут рыбные тексты.</p>
+
+							<a class="news-card__read-more more-link" href="#">Читать далее</a>
+						</article>
+
+						<article class="news-card">
+							<a class="news-card__img-wrapper" href="#" href="#">
+								<img class="news-card__img" src="img/news/preview1.jpg" alt="image">
+							</a>
+
+							<div class="news-card__meta">
+								<p class="news-card__date">22.09.21</p>
+
+								<p class="news-card__views icon-eye">(123)</p>
+							</div>
+
+							<h5 class="news-card__title">
+								<a href="#">Как осуществляется сборка/разборка мебели</a>
+							</h5>
+
+							<p class="news-card__text">Разбираем, собираем мебель. Укажите данную услугу при составлении заявки и грузчики в стране гласных и согласных живут рыбные тексты.</p>
+
+							<a class="news-card__read-more more-link" href="#">Читать далее</a>
+						</article>
+
+						<article class="news-card">
+							<a class="news-card__img-wrapper" href="#" href="#">
+								<img class="news-card__img" src="img/news/preview1.jpg" alt="image">
+							</a>
+
+							<div class="news-card__meta">
+								<p class="news-card__date">22.09.21</p>
+
+								<p class="news-card__views icon-eye">(123)</p>
+							</div>
+
+							<h5 class="news-card__title">
+								<a href="#">Как осуществляется сборка/разборка мебели</a>
+							</h5>
+
+							<p class="news-card__text">Разбираем, собираем мебель. Укажите данную услугу при составлении заявки и грузчики в стране гласных и согласных живут рыбные тексты.</p>
+
+							<a class="news-card__read-more more-link" href="#">Читать далее</a>
+						</article>
+
+						<article class="news-card">
+							<a class="news-card__img-wrapper" href="#" href="#">
+								<img class="news-card__img" src="img/news/preview1.jpg" alt="image">
+							</a>
+
+							<div class="news-card__meta">
+								<p class="news-card__date">22.09.21</p>
+
+								<p class="news-card__views icon-eye">(123)</p>
+							</div>
+
+							<h5 class="news-card__title">
+								<a href="#">Как осуществляется сборка/разборка мебели</a>
+							</h5>
+
+							<p class="news-card__text">Разбираем, собираем мебель. Укажите данную услугу при составлении заявки и грузчики в стране гласных и согласных живут рыбные тексты.</p>
+
+							<a class="news-card__read-more more-link" href="#">Читать далее</a>
+						</article>
+					</div>
+
+					<div class="news-list__pagination pagination">
+						<ul class="pagination__list">
+							<li class="pagination__item">
+								<a class="pagination__link pagination__prev pagination__prev--disabled" href="#">Назад</a>
+							</li>
+
+							<li class="pagination__item">
+								<a class="pagination__link pagination__link--active" href="#">1</a>
+							</li>
+
+							<li class="pagination__item">
+								<a class="pagination__link" href="#">2</a>
+							</li>
+
+							<li class="pagination__item">
+								<a class="pagination__link" href="#">3</a>
+							</li>
+
+							<li class="pagination__item">
+								<a class="pagination__link pagination__next" href="#">Вперед</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__top">
+					<div class="footer__main footer__column">
+						<a class="footer__logo-link" href="#">
+							<img class="footer__logo-img" src="img/logo.svg" alt="logo">
+						</a>
+
+						<ul class="footer__list">
+							<li class="footer__list-item">
+								<a class="footer__list-link footer__list-link--with-icon icon-handset-fill"
+									href="tel:88000000000">8 800 000 00 00</a>
+							</li>
+
+							<li class="footer__list-item">
+								<a class="footer__list-link footer__list-link--with-icon icon-mail-fill"
+									href="mailto:info@dominant24.ru">info@dominant24.ru</a>
+							</li>
+
+							<li class="footer__list-item">
+								<a class="footer__list-link footer__list-link--with-icon icon-chat-fill" href="#">Оставить
+									отзыв</a>
+							</li>
+
+							<li class="footer__list-item">
+								<p class="footer__list-text footer__list-text--with-icon icon-time-fill">Работаем круглосуточно
+								</p>
+							</li>
+
+							<li class="footer__list-item footer__social">
+								<span class="footer__social-text">Напишите нам:</span>
+
+								<div class="footer__social-links">
+									<a class="footer__social-link icon-telegram" href="#"></a>
+									<a class="footer__social-link icon-whatsapp" href="#"></a>
+								</div>
+							</li>
+
+							<li class="footer__list-item footer__social footer__social--mobile">
+								<span class="footer__social-text">Мы в соцсетях:</span>
+
+								<div class="footer__social-links">
+									<a class="footer__social-link icon-instagram" href="#"></a>
+									<a class="footer__social-link icon-youtube" href="#"></a>
+									<a class="footer__social-link icon-vk" href="#"></a>
+									<a class="footer__social-link icon-facebook" href="#"></a>
+								</div>
+							</li>
+						</ul>
+
+						<a class="footer__button button open-popup" href="#feedback-popup">Заказать звонок</a>
+
+						<form class="footer__form" action="#">
+							<input class="footer__input input" placeholder="Введите ваш номер" type="text" required>
+
+							<button class="footer__form-button button" type="submit">Заказать звонок</button>
+
+							<label class="footer__checkbox-label">
+								<input class="footer__checkbox form-style" type="checkbox" required>
+
+								<span class="footer__checkbox-text">
+									Отправляя форму Вы соглашаетесь с обработкой персональных данных и политикой
+									конфеденциальности
+								</span>
+							</label>
+						</form>
+					</div>
+
+					<div class="footer__services footer__column">
+						<h4 class="footer__column-title">Услуги:</h4>
+
+						<div class="footer__services-inner">
+							<ul class="footer__list">
+								<li class="footer__list-item">
+									<a class="footer__list-link" href="#">О компании</a>
+								</li>
+
+								<li class="footer__list-item">
+									<a class="footer__list-link" href="#">Отзывы</a>
+								</li>
+
+								<li class="footer__list-item">
+									<a class="footer__list-link" href="#">Контакты</a>
+								</li>
+
+								<li class="footer__list-item">
+									<a class="footer__list-link" href="#">Вакансии</a>
+								</li>
+
+								<li class="footer__list-item">
+									<a class="footer__list-link" href="#">Новости</a>
+								</li>
+							</ul>
+
+							<ul class="footer__list">
+								<li class="footer__list-item">
+									<a class="footer__list-link" href="#">Грузчики на час</a>
+								</li>
+
+								<li class="footer__list-item">
+									<a class="footer__list-link" href="#">Автопарк</a>
+								</li>
+
+								<li class="footer__list-item">
+									<a class="footer__list-link" href="#">Квартирный переезд</a>
+								</li>
+
+								<li class="footer__list-item">
+									<a class="footer__list-link" href="#">Дачный переезд</a>
+								</li>
+
+								<li class="footer__list-item">
+									<a class="footer__list-link" href="#">Офисный переезд</a>
+								</li>
+							</ul>
+
+							<ul class="footer__list">
+								<li class="footer__list-item">
+									<a class="footer__list-link" href="#">Такелаж</a>
+								</li>
+
+								<li class="footer__list-item">
+									<a class="footer__list-link" href="#">Вывоз мусора</a>
+								</li>
+
+								<li class="footer__list-item">
+									<a class="footer__list-link" href="#">Уборка снега</a>
+								</li>
+
+								<li class="footer__list-item">
+									<a class="footer__list-link" href="#">Перевозка вещей</a>
+								</li>
+
+								<li class="footer__list-item">
+									<a class="footer__list-link" href="#">Переезд с грузчиками</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="footer__payments footer__column">
+						<h4 class="footer__column-title">Способы оплаты:</h4>
+
+						<ul class="footer__list">
+							<li class="footer__list-item">
+								<a class="footer__list-link" href="#">Наличный</a>
+							</li>
+
+							<li class="footer__list-item">
+								<a class="footer__list-link" href="#">Безгаличный с НДС</a>
+							</li>
+
+							<li class="footer__list-item">
+								<a class="footer__list-link" href="#">Безналичный без НДС</a>
+							</li>
+
+							<li class="footer__list-item footer__social footer__social--two-lines">
+								<span class="footer__social-text">Мы в соцсетях:</span>
+
+								<div class="footer__social-links">
+									<a class="footer__social-link icon-instagram" href="#"></a>
+									<a class="footer__social-link icon-youtube" href="#"></a>
+									<a class="footer__social-link icon-vk" href="#"></a>
+									<a class="footer__social-link icon-facebook" href="#"></a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<p class="footer__bottom">
+					Информация на данном сайте носит информационный характер и не является офертой. ст. 437 ч. 1 ГК РФ. Все
+					права защищены. © Доминант 2012-2021.
+				</p>
+			</div>
+		</footer>
+	</div>
+
+	<div class="city-popup mfp-hide" id="city-popup">
+		<a class="city-popup__close-btn icon-cross-fill close-popup" href="#"></a>
+
+		<p class="city-popup__title">Выбор города</p>
+
+		<form class="city-popup__form" action="#">
+			<div class="city-popup__search-wrapper">
+				<input class="city-popup__search input input--light" type="text" placeholder="или введите название города">
+				<button class="city-popup__search-button icon-search" type="submit"></button>
+			</div>
+		</form>
+
+		<ul class="city-popup__list">
+			<li class="city-popup__list-item">
+				<a class="city-popup__list-link" href="#">Асбест</a>
+			</li>
+
+			<li class="city-popup__list-item">
+				<a class="city-popup__list-link" href="#">Миасс</a>
+			</li>
+
+			<li class="city-popup__list-item">
+				<a class="city-popup__list-link" href="#">Ноябрьск</a>
+			</li>
+
+			<li class="city-popup__list-item">
+				<a class="city-popup__list-link" href="#">Сургут</a>
+			</li>
+
+			<li class="city-popup__list-item">
+				<a class="city-popup__list-link" href="#">Нефтеюганск</a>
+			</li>
+
+			<li class="city-popup__list-item">
+				<a class="city-popup__list-link" href="#">Озёрск</a>
+			</li>
+
+			<li class="city-popup__list-item">
+				<a class="city-popup__list-link" href="#">Златоуст</a>
+			</li>
+
+			<li class="city-popup__list-item">
+				<a class="city-popup__list-link" href="#">Нижневартовск</a>
+			</li>
+
+			<li class="city-popup__list-item">
+				<a class="city-popup__list-link" href="#">Первоуральск</a>
+			</li>
+
+			<li class="city-popup__list-item">
+				<a class="city-popup__list-link" href="#">Каменск-Уральский</a>
+			</li>
+
+			<li class="city-popup__list-item">
+				<a class="city-popup__list-link" href="#">Нижний Тагил</a>
+			</li>
+
+			<li class="city-popup__list-item">
+				<a class="city-popup__list-link" href="#">Пермь</a>
+			</li>
+
+			<li class="city-popup__list-item">
+				<a class="city-popup__list-link" href="#">Копейск</a>
+			</li>
+
+			<li class="city-popup__list-item">
+				<a class="city-popup__list-link" href="#">Новоуральск</a>
+			</li>
+
+			<li class="city-popup__list-item">
+				<a class="city-popup__list-link" href="#">Серов</a>
+			</li>
+
+			<li class="city-popup__list-item">
+				<a class="city-popup__list-link" href="#">Курган</a>
+			</li>
+
+			<li class="city-popup__list-item">
+				<a class="city-popup__list-link" href="#">Новый Уренгой</a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="feedback-popup mfp-hide" id="feedback-popup">
+		<a class="feedback-popup__close-btn icon-cross-fill close-popup" href="#"></a>
+
+		<p class="feedback-popup__title">Обратная связь</p>
+
+		<p class="feedback-popup__text">
+			Наш менеджер перезвонит в течении минуты и проконсультирует по всем вопросам
+		</p>
+
+		<form class="feedback-popup__form" action="#">
+			<div class="feedback-popup__input-wrapper icon-handset">
+				<input class="feedback-popup__input input input--light" type="text" placeholder="Введите ваш номер"
+					required>
+			</div>
+
+			<a class="feedback-popup__button button open-popup" type="submit" href="#success-popup">Оставить заявку</a>
+
+			<label class="feedback-popup__checkbox-label">
+				<input class="feedback-popup__checkbox form-style" type="checkbox" required>
+
+				<span class="feedback-popup__checkbox-text">
+					Отправляя форму Вы соглашаетесь с обработкой персональных данных и политикой конфеденциальности
+				</span>
+			</label>
+		</form>
+	</div>
+
+	<div class="success-popup mfp-hide" id="success-popup">
+		<a class="success-popup__close-btn icon-cross-fill close-popup" href="#"></a>
+
+		<p class="success-popup__title">Ваша заявка успешно отправлена</p>
+
+		<p class="success-popup__text">
+			Ожидайте звонка в течении минуты
+			Менеджер произведет Вам рассчет стоимости и оформит заявку
+		</p>
+
+		<a class="success-popup__button button" href="#">На главную</a>
+	</div>
+
+	<div class="review-popup mfp-hide" id="review-popup">
+		<a class="review-popup__close-btn icon-cross-fill" href="#"></a>
+
+		<p class="review-popup__title">Оставьте свой честный отзыв о нашей компании</p>
+
+		<form class="review-popup__form" action="#">
+			<div class="review-popup__form-top">
+				<div class="review-popup__input-wrapper icon-user">
+					<input class="review-popup__input input input--light" type="text" placeholder="Ваше имя" required>
+				</div>
+
+				<div class="review-popup__input-wrapper icon-handset">
+					<input class="review-popup__input input input--light" type="text" placeholder="+7 9хх ххх хх хх"
+						required>
+				</div>
+			</div>
+
+			<textarea class="review-popup__textarea textarea" placeholder="Введите текст отзыва" required></textarea>
+
+			<div class="review-popup__form-footer">
+				<label class="review-popup__checkbox-label">
+					<input class="review-popup__checkbox form-style" type="checkbox" required>
+
+					<span class="review-popup__checkbox-text">
+						Отправляя форму Вы соглашаетесь с обработкой персональных данных и политикой конфеденциальности
+					</span>
+				</label>
+
+				<button class="review-popup__button button" type="submit">Отправить отзыв</button>
+			</div>
+		</form>
+	</div>
+
+	<script src="js/main.min.js"></script>
+</body>
+
+</html>
